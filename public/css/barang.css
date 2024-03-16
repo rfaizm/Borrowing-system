@@ -1,0 +1,26 @@
+.spinner input{
+    text-align: center;
+    width : 42px;
+    padding : 5px 10px;
+    border: none;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+input[type=checkbox]{
+    accent-color: #dd5353;
+    width: 30px;
+    height: 30px;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #dd5353;
+    border-color: #dd5353;
+}
